@@ -1,0 +1,19 @@
+{
+  "short_name": "Nicole & Marcus",
+  "name": "Nicole & Marcus - Save the date!",
+  "icons": [
+    {
+      "src": "std.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "marcus_and_nicole.jpeg",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
