@@ -1,30 +1,39 @@
 .App {
 	text-align: center;
+	background-image: url("../public/marcus_and_nicole.jpeg");
+	background-size: 70vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.date {
+	position: absolute;
+	width: 50vw;
+	height: 5vh;
+	left: 25%;
+	top: 50px;
+	cursor: pointer;
+	opacity: 0;
 }
 
 @media screen and (max-width: 600px) {
-	.picture {
-		max-width: 100%;
-		height: auto;
-		pointer-events: none;
+	.App {
+		text-align: center;
+		background-image: url("../public/marcus_and_nicole.jpeg");
+		background-size: 50vh;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		height: 80vh;
 	}
-}
-.picture {
-	max-height: 90vh;
-	pointer-events: none;
-}
-
-.App-header {
-	background-color: #ffffff;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
-
-.App-link {
-	color: #61dafb;
+	.date {
+		position: absolute;
+		width: 50vw;
+		height: 8vh;
+		left: 25%;
+		top: 50px;
+		cursor: pointer;
+	}
 }

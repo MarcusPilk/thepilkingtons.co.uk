@@ -1,15 +1,23 @@
 import "./App.css";
 
 function App() {
+	const openAlert = () => {
+		alert(
+			"Woaaaah! You're a bit early for that! We'll let you know when you can RSVP."
+		);
+	};
+
 	return (
 		<div className="App">
-			<header className="App-header">
-				<img
-					src={"/marcus_and_nicole.jpeg"}
-					className="picture"
-					alt="Save the date!"
-				/>
-			</header>
+			<div className="date" onClick={openAlert}>
+				{/* <a
+					className="date"
+					href="https://calendar.app.google/k6NXMeqSvjMYcBfMA"
+					target="_blank"
+				>
+					Calendar Invite
+				</a> */}
+			</div>
 		</div>
 	);
 }
